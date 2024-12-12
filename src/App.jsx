@@ -1,11 +1,18 @@
+import CardComponent from "./components/CardComponent"
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
 
   return (
     <>
-      <h1>Title</h1>
+      <header className="text-center mt-2 mb-5">
+        <h1>Il mio blog</h1>
+      </header>
+      <main className="container mx-auto w-50 ">
+        <CardComponent />
+      </main>
     </>
   )
 }
 
-export default App
+export default App;
